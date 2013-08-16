@@ -280,15 +280,15 @@ Source: https://github.com/libretro/fceu-next</description>
 			library_windx=""
 			library_wingl="">
 		<platforms>Game Boy|Game Boy Color</platforms>
-		<extensions>gb|gbc|dmg</extensions>
-		<allowvfs>false</allowvfs>
+		<extensions>gb|gbc|dmg|zip</extensions>
+		<allowvfs>true</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Gambatte v0.5.0</summary>
 		<description>Gambatte is an accuracy-focused, open-source, cross-platform Game Boy Color emulator written in C++. It is based on hundreds of corner case hardware tests, as well as previous documentation and reverse engineering efforts.
 
-Supported files: .gb, .gbc, .dmg
+Supported files: .gb, .gbc, .dmg, .zip
 
 Source: https://github.com/libretro/gambatte-libretro</description>
 		<disclaimer>Game Boy and Game Boy Color are registered trademarks of Nintendo of America, Inc. Gambatte is not affiliated with or endorsed by any of the companies mentioned.</disclaimer>

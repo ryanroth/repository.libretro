@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta>
 	<date>2013-04-24</date>
-	<extensions>gb|gbc|dmg</extensions>
+	<extensions>gb|gbc|dmg|zip</extensions>
 	<pretty_version>v0.5.0</pretty_version>
-	<allowvfs>false</allowvfs>
+	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to f258d17 @ 2013-04-17</changelog>
 </meta>
