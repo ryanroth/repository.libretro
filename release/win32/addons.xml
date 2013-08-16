@@ -766,7 +766,7 @@ Source: https://github.com/libretro/stella-libretro</description>
 			library_wingl="tyrquake_libretro.dll">
 		<platforms></platforms>
 		<extensions>pak|zip</extensions>
-		<allowvfs>false</allowvfs>
+		<allowvfs>true</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -797,7 +797,7 @@ Source: https://github.com/libretro/tyrquake</description>
 			library_windx="vba_next_libretro.dll"
 			library_wingl="vba_next_libretro.dll">
 		<platforms>Game Boy Advance</platforms>
-		<extensions>gba|zip</extensions>
+		<extensions>gba</extensions>
 		<allowvfs>false</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
@@ -805,7 +805,7 @@ Source: https://github.com/libretro/tyrquake</description>
 		<summary lang="en">VBA-Next v1.0.2</summary>
 		<description>VBA-Next is a fork from the now inactive VisualBoy Advance project, with goals to improve the capatibility and features of the emulator.
 
-Supported files: .gba, .zip
+Supported files: .gba
 
 Source: https://github.com/libretro/vba-next</description>
 		<platform>windx wingl</platform>
