@@ -4,6 +4,6 @@
 	<extensions>iso|zip</extensions>
 	<pretty_version>v0.2.97.28</pretty_version>
 	<allowvfs>false</allowvfs>
-	<blockextract>false</blockextract>
+	<blockextract>true</blockextract>
 	<changelog>Upgraded to 1c7b302 (v0.2.97.28) @ 2013-04-20</changelog>
 </meta>

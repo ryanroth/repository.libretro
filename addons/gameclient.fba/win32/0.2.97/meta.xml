@@ -4,6 +4,6 @@
 	<extensions>iso|zip</extensions>
 	<pretty_version>v0.2.97.28</pretty_version>
 	<allowvfs>false</allowvfs>
-	<blockextract>false</blockextract>
+	<blockextract>true</blockextract>
 	<changelog>Initial release. FBA v0.2.97.28, https://github.com/libretro/fba-libretro @ 2013-01-05</changelog>
 </meta>

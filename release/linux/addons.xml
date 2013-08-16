@@ -215,7 +215,7 @@ Source: https://github.com/libretro/dosbox-libretro</description>
         <platforms></platforms>
 		<extensions>iso|zip</extensions>
 		<allowvfs>false</allowvfs>
-		<blockextract>false</blockextract>
+		<blockextract>true</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Final Burn Alpha v0.2.97.28</summary>
