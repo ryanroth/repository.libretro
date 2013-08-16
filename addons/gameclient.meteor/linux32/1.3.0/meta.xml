@@ -3,7 +3,7 @@
 	<date>2013-02-16</date>
 	<extensions>gba</extensions>
 	<pretty_version>v1.3.0</pretty_version>
-	<allowvfs>false</allowvfs>
+	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Initial release. https://github.com/libretro/meteor-libretro @ b8fe526 (2012-04-15)</changelog>
 </meta>

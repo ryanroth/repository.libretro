@@ -473,7 +473,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 			library_wingl="">
 		<platforms>Game Boy Advance</platforms>
 		<extensions>gba</extensions>
-		<allowvfs>false</allowvfs>
+		<allowvfs>true</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">

@@ -3,7 +3,7 @@
 	<date>2013-02-04</date>
 	<extensions>gba</extensions>
 	<pretty_version>v1.3.0</pretty_version>
-	<allowvfs>false</allowvfs>
+	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Initial release. Meteor v1.3.0, https://github.com/libretro/meteor-libretro @ 2013-01-05</changelog>
 </meta>
