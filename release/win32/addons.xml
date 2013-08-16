@@ -765,7 +765,7 @@ Source: https://github.com/libretro/stella-libretro</description>
 			library_windx="tyrquake_libretro.dll"
 			library_wingl="tyrquake_libretro.dll">
 		<platforms></platforms>
-		<extensions>pak|zip</extensions>
+		<extensions>pak</extensions>
 		<allowvfs>true</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
@@ -773,7 +773,7 @@ Source: https://github.com/libretro/stella-libretro</description>
 		<summary lang="en">Tyr-Quake v0.62</summary>
 		<description>Tyr-Quake is a branch of the Quake source code released by id. It's intended to support Quake and Quakeworld. Instead of changing the look or feel of the game by adding lots of rendering enhancements, it aims to just fix little bugs that have come up over the years.
 
-Supported files: .pak, .zip
+Supported files: .pak
 
 Source: https://github.com/libretro/tyrquake</description>
 		<platform>windx wingl</platform>
