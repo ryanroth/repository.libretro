@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta>
 	<date>2013-08-09</date>
-	<extensions>smc|sfc|gz|swc|fig|jma|zip</extensions>
+	<extensions>smc|sfc|swc|fig</extensions>
 	<pretty_version>v1.53</pretty_version>
-	<allowvfs>false</allowvfs>
+	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to 4bb01ae @ 2013-08-02</changelog>
 </meta>

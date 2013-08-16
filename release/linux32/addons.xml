@@ -701,7 +701,7 @@ Source: https://github.com/libretro/scummvm</description>
 			library_wingl="">
 		<platforms>SNES</platforms>
 		<extensions>smc|sfc|gz|swc|fig|jma|zip</extensions>
-		<allowvfs>false</allowvfs>
+		<allowvfs>true</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">

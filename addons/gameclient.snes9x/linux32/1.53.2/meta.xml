@@ -3,7 +3,7 @@
 	<date>2013-07-10</date>
 	<extensions>smc|sfc|gz|swc|fig|jma|zip</extensions>
 	<pretty_version>v1.53</pretty_version>
-	<allowvfs>false</allowvfs>
+	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to 7bd0e2a @ 2013-06-16</changelog>
 </meta>
