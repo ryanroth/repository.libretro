@@ -342,7 +342,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 			library_windx="mednafen_ngp_libretro.dll"
 			library_wingl="mednafen_ngp_libretro.dll">
 		<platforms></platforms>
-		<extensions>gba</extensions>
+		<extensions>ngp|ngc</extensions>
 		<allowvfs>false</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
@@ -350,7 +350,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 		<summary lang="en">Mednafen NGP v0.9.28</summary>
 		<description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen NGP core to the libretro API.
 
-Supported files: .gba
+Supported files: .ngp, .ngc
 
 Source: https://github.com/libretro/mednafen-libretro</description>
 		<platform>windx wingl</platform>
