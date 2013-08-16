@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta>
 	<date>2013-04-23</date>
-	<extensions>nes|fds</extensions>
+	<extensions>nes|fds|zip</extensions>
 	<pretty_version>v1.44 (1.45-WIP)</pretty_version>
 	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
