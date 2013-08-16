@@ -567,7 +567,7 @@ Source: https://github.com/libretro/nestopia</description>
 			library_windx="nxengine_libretro.dll"
 			library_wingl="nxengine_libretro.dll">
 		<platforms></platforms>
-		<extensions>bin|exe|zip</extensions>
+		<extensions>exe</extensions>
 		<allowvfs>false</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
@@ -575,7 +575,7 @@ Source: https://github.com/libretro/nestopia</description>
 		<summary lang="en">NXEngine v1.0.0.4</summary>
 		<description>NXEngine is a complete open-source clone/rewrite of the masterpiece jump-and-run platformer Doukutsu Monogatari (also known as Cave Story).
 
-Supported files: .bin, .exe, .zip
+Supported files: .exe
 
 Source: https://github.com/libretro/nxengine-libretro</description>
 		<platform>windx wingl</platform>
@@ -599,7 +599,7 @@ Source: https://github.com/libretro/nxengine-libretro</description>
 			library_wingl="prboom_libretro.dll">
 		<platforms></platforms>
 		<extensions>wad|iwad</extensions>
-		<allowvfs>false</allowvfs>
+		<allowvfs>true</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">

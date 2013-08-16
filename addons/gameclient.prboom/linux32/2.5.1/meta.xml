@@ -3,7 +3,7 @@
 	<date>2013-07-10</date>
 	<extensions>wad|iwad</extensions>
 	<pretty_version>v2.5.0</pretty_version>
-	<allowvfs>false</allowvfs>
+	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to c86de6f @ 2013-05-27</changelog>
 </meta>

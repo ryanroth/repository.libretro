@@ -602,7 +602,7 @@ Source: https://github.com/libretro/pcsx_rearmed</description>
 			library_wingl="">
 		<platforms></platforms>
 		<extensions>wad|iwad</extensions>
-		<allowvfs>false</allowvfs>
+		<allowvfs>true</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
