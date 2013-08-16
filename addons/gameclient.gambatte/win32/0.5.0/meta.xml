@@ -3,7 +3,7 @@
 	<date>2013-02-16</date>
 	<extensions>gb|gbc|dmg</extensions>
 	<pretty_version>v0.5.0</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Initial release. Gambatte v0.5.0, https://github.com/libretro/gambatte-libretro @ 2013-01-10</changelog>
 </meta>

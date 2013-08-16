@@ -3,7 +3,7 @@
 	<date>2013-07-10</date>
 	<extensions>md|smd|bin|cue|gen|iso|sms|gg|sg|zip</extensions>
 	<pretty_version>v1.7.3</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Updated to 7033010 @ 2013-07-08</changelog>
 </meta>

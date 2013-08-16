@@ -3,7 +3,7 @@
 	<date>2013-04-24</date>
 	<extensions>nes|fds</extensions>
 	<pretty_version>v1.44 (1.45-WIP)</pretty_version>
-	<allowvfs>yes</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>true</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Upgraded to 005a9e1 @ 2013-04-20</changelog>
 </meta>

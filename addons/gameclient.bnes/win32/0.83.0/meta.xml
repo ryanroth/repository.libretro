@@ -3,7 +3,7 @@
 	<date>2013-02-16</date>
 	<extensions>nes</extensions>
 	<pretty_version>v083</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>true</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Initial release. bNES v083, https://github.com/libretro/bnes-libretro @ 2013-01-05</changelog>
 </meta>

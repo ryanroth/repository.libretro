@@ -3,7 +3,7 @@
 	<date>2013-04-23</date>
 	<extensions>gba|zip</extensions>
 	<pretty_version>v1.0.2</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Updated to 35e9a99 @ 2013-04-17</changelog>
 </meta>

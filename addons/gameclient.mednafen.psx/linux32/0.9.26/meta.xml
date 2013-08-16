@@ -3,7 +3,7 @@
 	<date>2013-02-16</date>
 	<extensions>cue|toc</extensions>
 	<pretty_version>v0.9.26</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Initial release: Mednafen PSX v0.9.26, https://github.com/libretro/mednafen-libretro @ 2cbf03c (2013-02-02)</changelog>
 </meta>

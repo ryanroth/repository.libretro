@@ -3,7 +3,7 @@
 	<date>2013-07-10</date>
 	<extensions>gba</extensions>
 	<pretty_version>v1.4</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Updated to e877cf0 @ 2013-05-18</changelog>
 </meta>

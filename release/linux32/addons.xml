@@ -15,8 +15,8 @@
 			library_wingl="">
 		<platforms>NES</platforms>
 		<extensions>nes</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">bNES v083</summary>
@@ -49,8 +49,8 @@ Source: https://github.com/libretro/bnes-libretro</description>
 			library_wingl="">
 		<platforms>SNES</platforms>
 		<extensions>sfc|smc</extensions>
-		<allowvfs>yes</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>true</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">bSNES v092 (Accuracy profile)</summary>
@@ -83,8 +83,8 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 			library_wingl="">
 		<platforms>SNES</platforms>
 		<extensions>sfc|smc</extensions>
-		<allowvfs>yes</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>true</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">bSNES v092 (Balanced profile)</summary>
@@ -117,8 +117,8 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 			library_wingl="">
 		<platforms>SNES</platforms>
 		<extensions>sfc|smc</extensions>
-		<allowvfs>yes</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>true</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 		<extension point="xbmc.addon.metadata">
 		<summary lang="en">bSNES v092 (Performance profile)</summary>
@@ -151,8 +151,8 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 			library_wingl="">
 		<platforms>Nintendo DS</platforms>
 		<extensions>nds</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">DeSmuME</summary>
@@ -183,8 +183,8 @@ Source: https://github.com/libretro/desmume-libretro</description>
 			library_wingl="">
         <platforms></platforms>
 		<extensions>exe|com|bat|conf</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">DOSBox v0.74</summary>
@@ -214,8 +214,8 @@ Source: https://github.com/libretro/dosbox-libretro</description>
 			library_wingl="">
         <platforms></platforms>
 		<extensions>iso|zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Final Burn Alpha v0.2.97.28</summary>
@@ -248,8 +248,8 @@ Source: https://github.com/libretro/fba-libretro</description>
 			library_wingl="">
 		<platforms>NES</platforms>
 		<extensions>fds|nes|unif|zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">FCEU-Next v0.98.13mm (SVN)</summary>
@@ -281,8 +281,8 @@ Source: https://github.com/libretro/fceu-next</description>
 			library_wingl="">
 		<platforms>Game Boy|Game Boy Color</platforms>
 		<extensions>gb|gbc|dmg</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Gambatte v0.5.0</summary>
@@ -313,8 +313,8 @@ Source: https://github.com/libretro/gambatte-libretro</description>
 			library_wingl="">
 		<platforms>Genesis|Game Gear|SEGA Master System</platforms>
 		<extensions>md|smd|bin|cue|gen|iso|sms|gg|sg|zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 		<extension point="xbmc.addon.metadata">
 		<summary lang="en">Genesis Plus GX v1.7.3</summary>
@@ -344,8 +344,8 @@ Source: https://github.com/libretro/Genesis-Plus-GX</description>
 			library_wingl="">
 		<platforms></platforms>
 		<extensions>zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">MAME v0.78</summary>
@@ -377,8 +377,8 @@ Source: https://github.com/libretro/mame078-libretro</description>
 			library_wingl="">
 		<platforms>TurboGrafx-16|TurboGrafx CD</platforms>
 		<extensions>pce|cue|zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Mednafen v0.9.28 PC Engine / TurboGrafx 16 / SuperGrafx</summary>
@@ -409,8 +409,8 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 			library_wingl="">
 		<platforms>Playstation</platforms>
 		<extensions>cue|toc</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Mednafen PSX v0.9.28</summary>
@@ -442,8 +442,8 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 			library_wingl="">
 		<platforms>WonderSwan|WonderSwan Color</platforms>
 		<extensions>ws|wsc|zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Mednafen WonderSwan v0.9.28</summary>
@@ -473,8 +473,8 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 			library_wingl="">
 		<platforms>Game Boy Advance</platforms>
 		<extensions>gba</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Meteor GBA v1.4</summary>
@@ -507,8 +507,8 @@ Source: https://github.com/libretro/meteor-libretro</description>
 			library_wingl="">
 		<platforms>NES</platforms>
 		<extensions>nes|fds</extensions>
-		<allowvfs>yes</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>true</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Nestopia v1.44 (1.45-WIP)</summary>
@@ -540,8 +540,8 @@ Source: https://github.com/libretro/nestopia</description>
 			library_wingl="">
 		<platforms></platforms>
 		<extensions>bin|exe|zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">NXEngine v1.0.0.4</summary>
@@ -571,8 +571,8 @@ Source: https://github.com/libretro/nxengine-libretro</description>
 			library_wingl="">
 		<platforms>PlayStation</platforms>
 		<extensions>bin|cue|img|mdf|pbp|cbn</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">PCSX ReARMed r19</summary>
@@ -602,8 +602,8 @@ Source: https://github.com/libretro/pcsx_rearmed</description>
 			library_wingl="">
 		<platforms></platforms>
 		<extensions>wad|iwad</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">PrBoom v2.5.0</summary>
@@ -636,8 +636,8 @@ Source: https://github.com/libretro/libretro-prboom</description>
 			library_wingl="">
 		<platforms>NES</platforms>
 		<extensions>nes</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">QuickNES v0.7.0</summary>
@@ -668,8 +668,8 @@ Source: https://github.com/libretro/QuickNES_Core</description>
 			library_wingl="">
         <platforms></platforms>
 		<extensions></extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">ScummVM v1.6.0</summary>
@@ -701,8 +701,8 @@ Source: https://github.com/libretro/scummvm</description>
 			library_wingl="">
 		<platforms>SNES</platforms>
 		<extensions>smc|sfc|gz|swc|fig|jma|zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Snes9x v1.53</summary>
@@ -735,8 +735,8 @@ Source: https://github.com/snes9xgit/snes9x</description>
 			library_wingl="">
 		<platforms>SNES</platforms>
 		<extensions>smc|sfc|gz|swc|fig|jma|zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Snes9x-Next v1.52.4</summary>
@@ -768,8 +768,8 @@ Source: https://github.com/libretro/snes9x-next</description>
 			library_wingl="">
 		<platforms>Atari 2600</platforms>
 		<extensions>a26|bin</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Stella v3.4.1</summary>
@@ -802,8 +802,8 @@ Source: https://github.com/libretro/stella-libretro</description>
 			library_wingl="">
 		<platforms></platforms>
 		<extensions>pak|zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Tyr-Quake v0.62</summary>
@@ -834,8 +834,8 @@ Source: https://github.com/libretro/tyrquake</description>
 			library_wingl="">
 		<platforms>Game Boy Advance</platforms>
 		<extensions>gba|zip</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">VBA-Next v1.0.2</summary>
@@ -865,8 +865,8 @@ Source: https://github.com/libretro/vba-next</description>
 			library_wingl="">
         <platforms>Sega Saturn</platforms>
 		<extensions>bin|cue</extensions>
-		<allowvfs>no</allowvfs>
-		<blockextract>no</blockextract>
+		<allowvfs>false</allowvfs>
+		<blockextract>false</blockextract>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Yabause v0.9.12</summary>

@@ -3,7 +3,7 @@
 	<date>2013-04-24</date>
 	<extensions>zip</extensions>
 	<pretty_version>v0.78</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Updated to aeb79aa @ 2013-04-19</changelog>
 </meta>

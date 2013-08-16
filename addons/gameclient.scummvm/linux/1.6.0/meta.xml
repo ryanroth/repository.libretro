@@ -3,7 +3,7 @@
 	<date>2013-04-24</date>
 	<extensions></extensions>
 	<pretty_version>v1.6.0</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Initial release: ScummVM v1.6.0 @ https://github.com/libretro/scummvm/commit/3229886 (2013-04-13)</changelog>
 </meta>

@@ -3,7 +3,7 @@
 	<date>2013-07-10</date>
 	<extensions>bin|exe|zip</extensions>
 	<pretty_version>v1.0.0.4</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Updated to 2c23062 @ 2013-06-07</changelog>
 </meta>

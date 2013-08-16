@@ -3,7 +3,7 @@
 	<date>2013-02-16</date>
 	<extensions>wad|iwad</extensions>
 	<pretty_version>v2.5.0</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Initial release: PrBoom v2.5.0, https://github.com/libretro/libretro-prboom @ 311ae96 (2013-02-02)</changelog>
 </meta>

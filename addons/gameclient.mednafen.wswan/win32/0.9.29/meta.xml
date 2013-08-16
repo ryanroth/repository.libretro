@@ -3,7 +3,7 @@
 	<date>2013-08-09</date>
 	<extensions>ws|wsc</extensions>
 	<pretty_version>v0.9.28</pretty_version>
-	<allowvfs>no</allowvfs>
-	<blockextract>no</blockextract>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
 	<changelog>Updated to dc0dcf8 @ 2013-07-31</changelog>
 </meta>
