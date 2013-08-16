@@ -3,7 +3,7 @@
 	<date>2013-02-16</date>
 	<extensions>a26|bin</extensions>
 	<pretty_version>v3.4.1</pretty_version>
-	<allowvfs>false</allowvfs>
+	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Initial release. https://github.com/libretro/stella-libretro @ 7a2ff3f (2012-08-16)</changelog>
 </meta>
