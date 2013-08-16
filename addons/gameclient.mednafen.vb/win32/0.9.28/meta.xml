@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta>
 	<date>2013-08-09</date>
-	<extensions>gba</extensions>
+	<extensions>vb|vboy|bin</extensions>
 	<pretty_version>v0.9.28</pretty_version>
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>

@@ -438,7 +438,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 			library_windx="mednafen_vb_libretro.dll"
 			library_wingl="mednafen_vb_libretro.dll">
 		<platforms></platforms>
-		<extensions>gba</extensions>
+		<extensions>vb|vboy|bin</extensions>
 		<allowvfs>false</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
@@ -446,7 +446,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 		<summary lang="en">Mednafen VB v0.9.28</summary>
 		<description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen VB core to the libretro API.
 
-Supported files: .gba
+Supported files: .vb, .vboy, .bin
 
 Source: https://github.com/libretro/mednafen-libretro</description>
 		<platform>windx wingl</platform>
