@@ -1,0 +1,2 @@
+[B]2013-02-20[/B] Version [B]0.78.0[/B]
+. Initial release. MAME v0.78, https://github.com/libretro/mame078-libretro @ 7aad92b (2012-11-23)

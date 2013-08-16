@@ -1,0 +1,2 @@
+[B]2013-04-24[/B] Version [B]0.2.97[/B]
+. Initial release: FBA v0.2.97.28, https://github.com/libretro/fba-libretro @ 1c7b302 (2013-04-20)

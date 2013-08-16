@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-07-10</date>
+	<extensions>gba|zip</extensions>
+	<pretty_version>v1.0.2</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Updated to 4d0a623 @ 2013-05-18</changelog>
+</meta>

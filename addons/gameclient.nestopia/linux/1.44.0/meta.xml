@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-02-16</date>
+	<extensions>nes|fds</extensions>
+	<pretty_version>v1.44 (1.45-WIP)</pretty_version>
+	<allowvfs>yes</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release: Nestopia v1.44 (1.45-WIP), https://github.com/nestopia/libretro @ 082e608 (2013-02-02)</changelog>
+</meta>

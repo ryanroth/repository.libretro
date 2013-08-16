@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-02-16</date>
+	<extensions>smc|sfc|gz|swc|fig|jma|zip</extensions>
+	<pretty_version>v1.53</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release: Snes9x v1.53, https://github.com/snes9xgit/snes9x @ 2013-01-05</changelog>
+</meta>

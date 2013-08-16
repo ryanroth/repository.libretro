@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-02-16</date>
+	<extensions>sfc|smc</extensions>
+	<pretty_version>v089</pretty_version>
+	<allowvfs>yes</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release. bSNES v089 (Balanced), http://gitorious.org/bsnes/bsnes @ 2013-01-05</changelog>
+</meta>

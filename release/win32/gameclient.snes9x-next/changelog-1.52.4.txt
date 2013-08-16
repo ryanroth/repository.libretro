@@ -1,0 +1,2 @@
+[B]2013-02-16[/B] Version [B]1.52.4[/B]
+. Initial release. SNES9x Next v1.52.4, https://github.com/libretro/snes9x-next @ b0965af (2013-02-10)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-02-16</date>
+	<extensions>ws|wsc|zip</extensions>
+	<pretty_version>v0.9.22</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release: Mednafen WSWAN v0.9.22, https://github.com/libretro/mednafen-libretro @ 2013-01-05</changelog>
+</meta>

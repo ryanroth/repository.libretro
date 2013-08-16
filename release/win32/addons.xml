@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="gameclient.bnes"
+		name="bNES"
+		version="0.83.2"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="bnes_libretro.dll"
+			library_wingl="bnes_libretro.dll">
+		<platforms>NES</platforms>
+		<extensions>nes</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">bNES v083</summary>
+		<description>libretro port of bNES, a NES emulator.
+
+Supported files: .nes
+
+Authors: byuu, Ryphecha.
+
+Source: https://github.com/libretro/bnes-libretro</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		<!--<broken>Poor performance and reported crashes. Use FCEU-Next.</broken>-->
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.bsnes.accuracy"
+		name="bSNES (Accuracy)"
+		version="0.92.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="bsnes_libretro_accuracy.dll"
+			library_wingl="bsnes_libretro_accuracy.dll">
+		<platforms>SNES</platforms>
+		<extensions>sfc|smc</extensions>
+		<allowvfs>yes</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">bSNES v092 (Accuracy profile)</summary>
+		<description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator. Written by byuu, ported by Ver Greeneyes and Themaister.
+
+Supported files: .sfc, .smc
+
+Icon credit: Alucryd (alucryd.deviantart.com)
+
+Source: http://gitorious.org/bsnes/bsnes</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		<!--<broken>Crashes on startup, single-frame audio, faulty VFS support</broken>-->
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.bsnes.balanced"
+		name="bSNES (Balanced)"
+		version="0.92.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="bsnes_libretro_accuracy.dll"
+			library_wingl="bsnes_libretro_accuracy.dll">
+		<platforms>SNES</platforms>
+		<extensions>sfc|smc</extensions>
+		<allowvfs>yes</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">bSNES v092 (Balanced profile)</summary>
+		<description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator. Written by byuu, ported by Ver Greeneyes and Themaister.
+
+Supported files: .sfc, .smc
+
+Icon credit: Alucryd (alucryd.deviantart.com)
+
+Source: http://gitorious.org/bsnes/bsnes</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		<!--<broken>Crashes on startup, single-frame audio, faulty VFS support</broken>-->
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.bsnes.performance"
+		name="bSNES (Performance)"
+		version="0.92.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="bsnes_libretro_accuracy.dll"
+			library_wingl="bsnes_libretro_accuracy.dll">
+		<platforms>SNES</platforms>
+		<extensions>sfc|smc</extensions>
+		<allowvfs>yes</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+		<extension point="xbmc.addon.metadata">
+		<summary lang="en">bSNES v092 (Performance profile)</summary>
+		<description>Libretro implementation of the core emulation in bSNES, a Super Nintendo (SNES) emulator. Written by byuu, ported by Ver Greeneyes and Themaister.
+
+Supported files: .sfc, .smc
+
+Icon credit: Alucryd (alucryd.deviantart.com)
+
+Source: http://gitorious.org/bsnes/bsnes</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		<!--<broken>Crashes on startup, single-frame audio, faulty VFS support</broken>-->
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.dosbox"
+        name="DOSBox"
+		version="0.74.1"
+        provider-name="Libretro">
+    <requires>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="dosbox_libretro.dll"
+			library_wingl="dosbox_libretro.dll">
+        <platforms></platforms>
+		<extensions>exe|com|bat|conf</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">DOSBox v0.74</summary>
+        <description>DOSBox emulates an IBM PC compatible computer running MS-DOS. DOSBox can be configured to run a wide range of DOS games, from CGA/Tandy/PCjr classics up to games from the Quake era.
+
+Supported files: .exe, .com, .bat, .conf. If loading exe/com/bat the system directory will be searched for a 'dosbox.conf' file to load. If loading a *.conf file DOSBox will be loaded with the options in the config file.
+
+Source: https://github.com/libretro/dosbox-libretro</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+    </extension>
+</addon>
+
+<addon id="gameclient.fba"
+		name="Final Burn Alpha"
+		version="0.2.99"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="fb_alpha_libretro.dll"
+			library_wingl="fb_alpha_libretro.dll">
+        <platforms></platforms>
+		<extensions>iso|zip</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Final Burn Alpha v0.2.97.28</summary>
+		<description>Final Burn Alpha is an emulator of arcade games. Currently, FB Alpha supports games on Capcom CPS-1 and CPS-2 hardware, SNK Neo-Geo hardware, Toaplan hardware, Cave hardware, Sega System 16, and various games on miscellaneous hardware. FB Alpha is based on the original FinalBurn.
+
+Supported files: .iso, .zip
+
+Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)
+
+Source: https://github.com/libretro/fba-libretro</description>
+		<disclaimer>The authors of FB Alpha don't guarantee its fitness for any purpose, implied or otherwise, and do not accept responsibility for any damages whatsoever that might occur when using FB Alpha. All games emulated by FB Alpha, including any images and sounds therein, are copyrighted by their respective copyright holders.</disclaimer>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.fceu-next"
+		name="FCEU-Next"
+		version="0.98.15"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="fceumm_libretro.dll"
+			library_wingl="fceumm_libretro.dll">
+		<platforms>NES</platforms>
+		<extensions>fds|nes|unif</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">FCEU-Next v0.98.13mm (SVN)</summary>
+		<description>Port of FCEUmm / FCEUX to Libretro. FCEUX is a NES, Famicom, and Famicom Disk System (FDS) emulator. The concept behind FCEUX is to merge elements from FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE, and FCEU-mm into a single branch of FCEU.
+
+Supported files: .fds, .nes, .unif
+
+Icon credit: Anarkhya (anarkhya.deviantart.com)
+
+Source: https://github.com/libretro/fceu-next</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.gambatte"
+		name="Gambatte"
+		version="0.5.2"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="gambatte_libretro.dll"
+			library_wingl="gambatte_libretro.dll">
+		<platforms>Game Boy|Game Boy Color</platforms>
+		<extensions>gb|gbc|dmg</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Gambatte v0.5.0</summary>
+		<description>Gambatte is an accuracy-focused, open-source, cross-platform Game Boy Color emulator written in C++. It is based on hundreds of corner case hardware tests, as well as previous documentation and reverse engineering efforts.
+
+Supported files: .gb, .gbc, .dmg
+
+Source: https://github.com/libretro/gambatte-libretro</description>
+		<disclaimer>Game Boy and Game Boy Color are registered trademarks of Nintendo of America, Inc. Gambatte is not affiliated with or endorsed by any of the companies mentioned.</disclaimer>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.genplus"
+		name="Genesis Plus GX"
+		version="1.7.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="libretro-git-genplus-x86.dll"
+			library_wingl="libretro-git-genplus-x86.dll">
+		<platforms>Genesis|Game Gear|SEGA Master System</platforms>
+		<extensions>md|smd|bin|cue|gen|iso|sms|gg|sg|zip</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+		<extension point="xbmc.addon.metadata">
+		<summary lang="en">Genesis Plus GX v1.7.1</summary>
+		<description>An enhanced port of Genesis Plus to the libretro API. Support for SG-1000, Mark-III, Master System, Game Gear, Mega Drive &amp; Mega CD hardware. Enhancements backported by twinaphex from the GX version (Gamecube/Wii port).
+
+Supported files: .md, .smd, .bin, .cue, .gen, .iso, .sms, .gg, .sg, .zip
+
+Source: https://github.com/libretro/Genesis-Plus-GX</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.mednafen.gba"
+		name="Mednafen GBA"
+		version="0.9.28"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="mednafen_gba_libretro.dll"
+			library_wingl="mednafen_gba_libretro.dll">
+		<platforms>Game Boy Advance</platforms>
+		<extensions>gba</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Mednafen GBA v0.9.28</summary>
+		<description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen GBA core to the libretro API.
+
+Supported files: .gba
+
+Source: https://github.com/libretro/mednafen-libretro</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.mednafen.ngp"
+		name="Mednafen NGP"
+		version="0.9.28"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="mednafen_ngp_libretro.dll"
+			library_wingl="mednafen_ngp_libretro.dll">
+		<platforms></platforms>
+		<extensions>gba</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Mednafen NGP v0.9.28</summary>
+		<description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen NGP core to the libretro API.
+
+Supported files: .gba
+
+Source: https://github.com/libretro/mednafen-libretro</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.mednafen.pce.fast"
+		name="Mednafen PC Engine (Fast)"
+		version="0.9.29"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="mednafen_pce_fast_libretro.dll"
+			library_wingl="mednafen_pce_fast_libretro.dll">
+		<platforms>TurboGrafx-16|TurboGrafx CD</platforms>
+		<extensions>pce|sgx|cue</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Mednafen v0.9.28 PC Engine / TurboGrafx 16 / SuperGrafx</summary>
+		<description>Mednafen is a portable multi-system emulator. The "pce_fast" Mednafen emulation module is an experimental alternative to the pce emulation module, modified for speed at the expense of (usually) unneeded accuracy.
+
+Supported files: .pce, .sgx, .cue
+
+Source: https://github.com/libretro/mednafen-libretro</description>
+		<platform>windx wingl</platform>
+		<noicon>true</noicon>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.mednafen.psx"
+		name="Mednafen PSX"
+		version="0.9.29"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="mednafen_psx_libretro.dll"
+			library_wingl="mednafen_psx_libretro.dll">
+		<platforms>Playstation</platforms>
+		<extensions>cue|toc|m3u</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Mednafen PSX v0.9.28</summary>
+		<description>Mednafen is a portable multi-system emulator. This is port of the Mednafen PSX core to the libretro API. PlayStation 1 emulation is currently in a buggy alpha state and not all hardware and features are emulated. A dual-core Phenom II or Athlon II at 3GHz or higher, or rough equivalent, is recommended for running Mednafen's PlayStation 1 emulation. PSF1 playback is supported.
+
+Supported files: .cue, .toc, .m3u
+
+Icon credit: Anarkhya (anarkhya.deviantart.com)
+
+Source: https://github.com/libretro/mednafen-libretro</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.mednafen.vb"
+		name="Mednafen VB"
+		version="0.9.28"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="mednafen_vb_libretro.dll"
+			library_wingl="mednafen_vb_libretro.dll">
+		<platforms></platforms>
+		<extensions>gba</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Mednafen VB v0.9.28</summary>
+		<description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen VB core to the libretro API.
+
+Supported files: .gba
+
+Source: https://github.com/libretro/mednafen-libretro</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.mednafen.wswan"
+		name="Mednafen WonderSwan"
+		version="0.9.29"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="mednafen_wswan_libretro.dll"
+			library_wingl="mednafen_wswan_libretro.dll">
+		<platforms>WonderSwan|WonderSwan Color</platforms>
+		<extensions>ws|wsc</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Mednafen WonderSwan v0.9.28</summary>
+		<description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen WonderSwan core to the libretro API. Mednafen's WonderSwan (Color) emulation is based off of Cygne.
+
+Supported files: .ws, .wsc
+
+Source: https://github.com/libretro/mednafen-libretro</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.meteor"
+		name="Meteor GBA"
+		version="1.4.0"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="libretro-git-meteor.dll"
+			library_wingl="libretro-git-meteor.dll">
+		<platforms>Game Boy Advance</platforms>
+		<extensions>gba</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Meteor GBA v1.4</summary>
+		<description>Meteor is a Nintendo Gameboy Advance emulator.
+
+Supported files: .gba
+
+Authors: Philippe Daouadi &lt;p.daouadi@free.fr&gt;, Hans-Kristian Arntzen (libretro port and fixes) &lt;maister@archlinux.us&gt;
+
+Source: https://github.com/libretro/meteor-libretro</description>
+		<platform>windx wingl</platform>
+		<noicon>true</noicon>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.nestopia"
+		name="Nestopia"
+		version="1.44.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="nestopia_libretro.dll"
+			library_wingl="nestopia_libretro.dll">
+		<platforms>NES</platforms>
+		<extensions>nes|fds</extensions>
+		<allowvfs>yes</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Nestopia v1.44 (1.45-WIP)</summary>
+		<description>Nestopia is a portable open source NES/Famicom emulator. It is designed to be as accurate as possible and supports a large number of peripherals. The hardware is emulated at cycle-by-cycle granularity, ensuring full support for software that does mid-scanline and other timing trickery.
+
+Supported files: .nes, .fds
+
+Icon credit: Anarkhya (anarkhya.deviantart.com)
+
+Source: https://github.com/libretro/nestopia</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.nx"
+		name="NXEngine"
+		version="1.0.0"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="nxengine_libretro.dll"
+			library_wingl="nxengine_libretro.dll">
+		<platforms></platforms>
+		<extensions>bin|exe|zip</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">NXEngine v1.0.0.4</summary>
+		<description>NXEngine is a complete open-source clone/rewrite of the masterpiece jump-and-run platformer Doukutsu Monogatari (also known as Cave Story).
+
+Supported files: .bin, .exe, .zip
+
+Source: https://github.com/libretro/nxengine-libretro</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.prboom"
+		name="PrBoom"
+		version="2.5.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="prboom_libretro.dll"
+			library_wingl="prboom_libretro.dll">
+		<platforms></platforms>
+		<extensions>wad|iwad</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">PrBoom v2.5.0</summary>
+		<description>PrBoom is a version of the classic 3D shoot'em'up game Doom, originally written by id Software. To play PrBoom, you need one of the main Doom data files (called the IWAD) from id Software - doom.wad, doom2.wad, tnt.wad or plutonia.wad - or the shareware doom1.wad.
+
+If you don't own any of the Doom games, get the shareware doom1.wad from doom19s.zip on Doomworld's shareware download page. http://www.doomworld.com/files/shareware.shtml
+
+Supported files: .wad, .iwad
+
+Source: https://github.com/libretro/libretro-prboom</description>
+		<platform>windx wingl</platform>
+		<noicon>true</noicon>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.quicknes"
+		name="QuickNES"
+		version="1.0.2"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="quicknes_libretro.dll"
+			library_wingl="quicknes_libretro.dll">
+		<platforms>NES</platforms>
+		<extensions>nes</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">QuickNES v1</summary>
+		<description>The QuickNES core library, originally by Shay Green, heavily modified. QuickNES is a newer emulator that seems to have good compatibility.
+
+Supported files: .nes
+
+Source: https://github.com/libretro/QuickNES_Core</description>
+		<platform>windx wingl</platform>
+		<noicon>true</noicon>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.snes9x"
+		name="Snes9x"
+		version="1.53.2"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="snes9x_libretro.dll"
+			library_wingl="snes9x_libretro.dll">
+		<platforms>SNES</platforms>
+		<extensions>smc|sfc|gz|swc|fig|jma|zip</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Snes9x v1.53</summary>
+		<description>Snes9x is a portable, freeware SNES and Super Famicom emulator. Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports.
+
+Supported files: .smc, .sfc, .gz, .swc, .fig, .jma, .zip
+
+Icon credit: Alucryd (alucryd.deviantart.com)
+
+Source: https://github.com/snes9xgit/snes9x</description>
+		<disclaimer>The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information.</disclaimer>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.snes9x-next"
+		name="Snes9x-Next"
+		version="1.52.6"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="snes9x_next_libretro.dll"
+			library_wingl="snes9x_next_libretro.dll">
+		<platforms>SNES</platforms>
+		<extensions>smc|sfc|gz|swc|fig|jma|zip</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Snes9x-Next v1.52.4</summary>
+		<description>Snes9x-Next is based on Snes9x, but has been heavily modified/speed-hacked to achieve better speed.
+
+Supported files: .smc, .sfc, .gz, .swc, .fig, .jma, .zip
+
+Icon credit: Alucryd (alucryd.deviantart.com)
+
+Source: https://github.com/libretro/snes9x-next</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.stella"
+		name="Stella"
+		version="3.4.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="libretro-git-stella-x86.dll"
+			library_wingl="libretro-git-stella-x86.dll">
+		<platforms>Atari 2600</platforms>
+		<extensions>a26|bin</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Stella v3.4.1</summary>
+		<description>Stella is a multi-platform Atari 2600 VCS emulator. The Atari 2600 Video Computer System (VCS), introduced in 1977, was the most popular home video game system of the early 1980's. Now you can enjoy all of your favorite Atari 2600 games on your PC thanks to Stella!
+
+Supported files: .a26, .bin
+
+Stella was originally developed for Linux by Bradford W. Mott, and is currently maintained by Stephen Anthony.
+
+Source: https://github.com/libretro/stella-libretro</description>
+		<platform>windx wingl</platform>
+		<noicon>true</noicon>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.tyrquake"
+		name="Tyr-Quake"
+		version="0.62.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="tyrquake_libretro.dll"
+			library_wingl="tyrquake_libretro.dll">
+		<platforms></platforms>
+		<extensions>pak|zip</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Tyr-Quake v0.62</summary>
+		<description>Tyr-Quake is a branch of the Quake source code released by id. It's intended to support Quake and Quakeworld. Instead of changing the look or feel of the game by adding lots of rendering enhancements, it aims to just fix little bugs that have come up over the years.
+
+Supported files: .pak, .zip
+
+Source: https://github.com/libretro/tyrquake</description>
+		<platform>windx wingl</platform>
+		<noicon>true</noicon>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="gameclient.vba-next"
+		name="VBA-Next"
+		version="1.0.4"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android=""
+			library_linux=""
+			library_osx=""
+			library_windx="vba_next_libretro.dll"
+			library_wingl="vba_next_libretro.dll">
+		<platforms>Game Boy Advance</platforms>
+		<extensions>gba|zip</extensions>
+		<allowvfs>no</allowvfs>
+		<blockextract>no</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">VBA-Next v1.0.2</summary>
+		<description>VBA-Next is a fork from the now inactive VisualBoy Advance project, with goals to improve the capatibility and features of the emulator.
+
+Supported files: .gba, .zip
+
+Source: https://github.com/libretro/vba-next</description>
+		<platform>windx wingl</platform>
+		<nofanart>true</nofanart>
+		
+	</extension>
+</addon>
+
+<addon id="repository.libretro-win32"
+        name="Libretro Emulators"
+        version="1.0.2"
+        provider-name="garbear">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Libretro Emulators">
+        <info compressed="false">https://raw.github.com/garbear/repository.libretro/master/release/win32/addons.xml</info>
+        <checksum>https://raw.github.com/garbear/repository.libretro/master/release/win32/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/garbear/repository.libretro/master/release/win32/</datadir>
+        <hashes>true</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Libretro Emulators</summary>
+        <description>This repository contains emulators for the RetroPlayer branch of XBMC.</description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers. Team XBMC did not make all the add-ons on this repository and are not responsible for their content.</disclaimer>
+        <platform>windx wingl</platform>
+        <nofanart>true</nofanart>
+    </extension>
+</addon>
+</addons>

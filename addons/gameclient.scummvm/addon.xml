@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="@id@"
+        name="ScummVM@arch@"
+		version="@version@"
+        provider-name="Libretro">
+    <requires>
+        <import addon="xbmc.libretro" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gameclient"
+			library_android="@library_android@"
+			library_linux="@library_linux@"
+			library_osx="@library_osx@"
+			library_windx="@library_win@"
+			library_wingl="@library_win@">
+        <platforms></platforms>
+		<extensions>@extensions@</extensions>
+		<allowvfs>@allowvfs@</allowvfs>
+		<blockextract>@blockextract@</blockextract>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">ScummVM @pretty_version@</summary>
+        <description>ScummVM is a collection of game engine recreations. Originally designed to play LucasArts adventure games that use the SCUMM system, it now also supports a variety of non-SCUMM games by companies like Revolution Software and Adventure Soft.
+
+Supported files: @supported_files@
+
+Icon credit: HarryBana (harrybana.deviantart.com)
+
+Source: https://github.com/libretro/scummvm</description>
+		<platform>@platform@</platform>
+		<nofanart>true</nofanart>
+		@broken@
+    </extension>
+</addon>

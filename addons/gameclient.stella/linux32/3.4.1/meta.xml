@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-02-16</date>
+	<extensions>a26|bin</extensions>
+	<pretty_version>v3.4.1</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release. https://github.com/libretro/stella-libretro @ 7a2ff3f (2012-08-16)</changelog>
+</meta>

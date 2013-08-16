@@ -1,0 +1,5 @@
+[B]2013-07-10[/B] Version [B]3.4.2[/B]
+. Updated to ef2e5d9 @ 2013-05-19
+
+[B]2013-02-16[/B] Version [B]3.4.1[/B]
+. Initial release. https://github.com/libretro/stella-libretro @ 7a2ff3f (2012-08-16)

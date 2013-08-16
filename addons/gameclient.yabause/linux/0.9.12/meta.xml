@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-04-24</date>
+	<extensions>bin|cue</extensions>
+	<pretty_version>v0.9.12</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release: Yabause v0.9.12 @ https://github.com/libretro/yabause/commit/214fa4d (2013-04-19)</changelog>
+</meta>

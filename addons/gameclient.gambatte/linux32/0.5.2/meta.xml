@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-07-10</date>
+	<extensions>gb|gbc|dmg</extensions>
+	<pretty_version>v0.5.0</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Updated to 2685b6a @ 2013-05-19</changelog>
+</meta>

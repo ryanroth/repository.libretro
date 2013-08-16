@@ -1,0 +1,2 @@
+[B]2013-02-16[/B] Version [B]0.83.0[/B]
+. Initial release. https://github.com/libretro/bnes-libretro @ b735dca (2012-04-14)

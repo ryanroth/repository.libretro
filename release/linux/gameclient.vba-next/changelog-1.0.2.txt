@@ -1,0 +1,2 @@
+[B]2013-02-16[/B] Version [B]1.0.2[/B]
+. Initial release. https://github.com/libretro/vba-next @ c9832a2 (2013-02-02)

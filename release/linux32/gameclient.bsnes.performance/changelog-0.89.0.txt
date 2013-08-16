@@ -1,0 +1,2 @@
+[B]2013-02-16[/B] Version [B]0.89.0[/B]
+. Initial release. bSNES v089 (Performance), http://gitorious.org/bsnes/bsnes @ 9439901 (2013-01-23)

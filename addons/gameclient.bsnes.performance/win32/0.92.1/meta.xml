@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-09</date>
+	<extensions>sfc|smc</extensions>
+	<pretty_version>v092</pretty_version>
+	<allowvfs>yes</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Updated to e6e5bf4 @ 2013-06-03</changelog>
+</meta>

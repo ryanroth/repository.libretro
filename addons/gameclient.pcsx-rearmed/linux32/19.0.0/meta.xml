@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-04-24</date>
+	<extensions>bin|cue|img|mdf|pbp|cbn</extensions>
+	<pretty_version>r19</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release: PCSX ReARMed r19 @ https://github.com/libretro/pcsx_rearmed/commit/de0e733 (2013-04-17)</changelog>
+</meta>

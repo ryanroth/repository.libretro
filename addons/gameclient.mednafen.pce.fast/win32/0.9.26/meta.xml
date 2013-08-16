@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-02-16</date>
+	<extensions>pce|cue|zip</extensions>
+	<pretty_version>v0.9.26</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release: Mednafen PCE v0.9.26, https://github.com/libretro/mednafen-libretro @ 2013-01-05</changelog>
+</meta>

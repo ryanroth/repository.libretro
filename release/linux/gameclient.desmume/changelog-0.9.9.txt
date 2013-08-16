@@ -1,0 +1,2 @@
+[B]2013-02-16[/B] Version [B]0.9.9[/B]
+. Initial release: DeSmuME 0.9.9, https://github.com/libretro/desmume-libretro @ 088bd18 (2012-11-23)

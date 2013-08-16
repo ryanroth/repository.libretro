@@ -1,0 +1,2 @@
+[B]2013-02-16[/B] Version [B]1.7.1[/B]
+. Initial release. Genesis Plus GX v1.7.1, https://github.com/libretro/Genesis-Plus-GX @ 2013-01-05

@@ -1,0 +1,2 @@
+[B]2013-02-16[/B] Version [B]1.0.0[/B]
+. Initial release: NXEngine v1.0.0.4, https://github.com/libretro/nxengine-libretro @ 6e0e782 (2013-02-04)

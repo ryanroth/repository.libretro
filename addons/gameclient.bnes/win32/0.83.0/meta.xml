@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-02-16</date>
+	<extensions>nes</extensions>
+	<pretty_version>v083</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release. bNES v083, https://github.com/libretro/bnes-libretro @ 2013-01-05</changelog>
+</meta>

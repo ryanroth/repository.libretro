@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-07-10</date>
+	<extensions>wad|iwad</extensions>
+	<pretty_version>v2.5.0</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Updated to c86de6f @ 2013-05-27</changelog>
+</meta>

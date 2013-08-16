@@ -1,0 +1,2 @@
+[B]2013-02-16[/B] Version [B]0.98.13[/B]
+. Initial release. FCEU-Next r106/v0.98.13mm (SVN), https://github.com/libretro/fceu-next @ 2013-01-05

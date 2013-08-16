@@ -1,0 +1,5 @@
+[B]2013-07-10[/B] Version [B]1.4.0[/B]
+. Updated to e877cf0 @ 2013-05-18
+
+[B]2013-02-16[/B] Version [B]1.3.0[/B]
+. Initial release. https://github.com/libretro/meteor-libretro @ b8fe526 (2012-04-15)

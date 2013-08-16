@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-02-16</date>
+	<extensions>gb|gbc|dmg</extensions>
+	<pretty_version>v0.5.0</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release. https://github.com/libretro/gambatte-libretro @ b16fd2f (2013-02-02)</changelog>
+</meta>

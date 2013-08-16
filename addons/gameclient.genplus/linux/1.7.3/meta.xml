@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-02-16</date>
+	<extensions>md|smd|bin|cue|gen|iso|sms|gg|sg|zip</extensions>
+	<pretty_version>v1.7.3</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Initial release: Genesis Plus GX v1.7.3, https://github.com/libretro/Genesis-Plus-GX @ 0477810 (2013-02-02)</changelog>
+</meta>

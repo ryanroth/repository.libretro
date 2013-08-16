@@ -1,0 +1,8 @@
+[B]2013-07-10[/B] Version [B]0.9.30[/B]
+. Updated to 1b05a4b @ 2013-05-24
+
+[B]2013-04-23[/B] Version [B]0.9.29[/B]
+. Upgraded to 209b3ce @ 2013-04-12
+
+[B]2013-02-16[/B] Version [B]0.9.28[/B]
+. Initial release: Mednafen WSWAN 0.9.28, https://github.com/libretro/mednafen-libretro @ 2cbf03c (2013-02-02)

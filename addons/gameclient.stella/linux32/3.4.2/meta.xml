@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-07-10</date>
+	<extensions>a26|bin</extensions>
+	<pretty_version>v3.4.1</pretty_version>
+	<allowvfs>no</allowvfs>
+	<blockextract>no</blockextract>
+	<changelog>Updated to ef2e5d9 @ 2013-05-19</changelog>
+</meta>

@@ -1,0 +1,1 @@
+The location of addons.xml for all platforms has changed. This folder was the old location for this platform. The addons.xml file has been modified to point to the new repository, which XBMC will hopefully update to and start using.

@@ -1,0 +1,2 @@
+[B]2013-04-23[/B] Version [B]1.44.0[/B]
+. Initial release: Nestopia v1.44 (1.45-WIP), https://github.com/nestopia/libretro @ 005a9e1 (2013-04-20)
