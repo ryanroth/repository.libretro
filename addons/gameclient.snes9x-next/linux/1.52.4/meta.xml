@@ -3,7 +3,7 @@
 	<date>2013-02-16</date>
 	<extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc|zip</extensions>
 	<pretty_version>v1.52.4</pretty_version>
-	<allowvfs>false</allowvfs>
+	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Initial release: Snes9x v1.52. https://github.com/libretro/snes9x-next @ ea17306 (2013-02-02)</changelog>
 </meta>
