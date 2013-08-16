@@ -633,7 +633,7 @@ Source: https://github.com/libretro/libretro-prboom</description>
 			library_wingl="quicknes_libretro.dll">
 		<platforms>NES</platforms>
 		<extensions>nes</extensions>
-		<allowvfs>false</allowvfs>
+		<allowvfs>true</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
