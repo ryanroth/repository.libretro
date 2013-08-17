@@ -345,7 +345,7 @@ Source: https://github.com/libretro/Genesis-Plus-GX</description>
 		<platforms></platforms>
 		<extensions>zip</extensions>
 		<allowvfs>false</allowvfs>
-		<blockextract>false</blockextract>
+		<blockextract>true</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">MAME v0.78</summary>

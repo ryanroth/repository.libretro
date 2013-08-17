@@ -1,0 +1,2 @@
+[B]2013-08-17[/B] Version [B]0.9.26[/B]
+. Initial release: Mednafen bSNES @pretty_version@, https://github.com/libretro/mednafen-libretro @ 74682eb (2013-08-10)

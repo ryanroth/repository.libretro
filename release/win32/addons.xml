@@ -522,7 +522,7 @@ Source: https://github.com/libretro/meteor-libretro</description>
 
 <addon id="gameclient.nestopia"
 		name="Nestopia"
-		version="1.44.1"
+		version="1.45.0"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
@@ -539,7 +539,7 @@ Source: https://github.com/libretro/meteor-libretro</description>
 		<blockextract>false</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Nestopia v1.44 (1.45-WIP)</summary>
+		<summary lang="en">Nestopia v1.45</summary>
 		<description>Nestopia is a portable open source NES/Famicom emulator. It is designed to be as accurate as possible and supports a large number of peripherals. The hardware is emulated at cycle-by-cycle granularity, ensuring full support for software that does mid-scanline and other timing trickery.
 
 Supported files: .nes, .fds

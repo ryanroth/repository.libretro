@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-09</date>
+	<extensions>nes|fds</extensions>
+	<pretty_version>v1.45</pretty_version>
+	<allowvfs>true</allowvfs>
+	<blockextract>false</blockextract>
+	<changelog>Upgraded to @pretty_version@ @ 78b403c (2013-07-29)</changelog>
+</meta>
