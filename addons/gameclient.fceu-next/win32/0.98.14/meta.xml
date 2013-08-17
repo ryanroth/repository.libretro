@@ -5,5 +5,6 @@
 	<pretty_version>v0.98.13mm (SVN)</pretty_version>
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
-	<changelog>Upgraded to version 98.13mm (SVN), f168700 @ 2013-04-17</changelog>
+	<changelog>Upgraded to version 98.13mm (SVN), f168700 @ 2013-04-17 (broken: crashes on game load)</changelog>
+	<broken>Crashes on game load</broken>
 </meta>

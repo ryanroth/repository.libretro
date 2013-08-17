@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta>
-	<date>2013-08-09</date>
+	<date>2013-08-17</date>
 	<extensions>fds|nes|unif</extensions>
 	<pretty_version>v0.98.13mm (SVN)</pretty_version>
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
-	<changelog>Updated to 06b48f0 @ 2013-07-14 (broken: crashes on game load)</changelog>
-	<broken>Crashes on game load</broken>
+	<changelog>Updated to 66eb5fb @ 2013-08-17 (fixed crash on game load)</changelog>
 </meta>

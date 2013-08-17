@@ -262,7 +262,7 @@ Icon credit: Anarkhya (anarkhya.deviantart.com)
 Source: https://github.com/libretro/fceu-next</description>
 		<platform>linux</platform>
 		<nofanart>true</nofanart>
-		
+		<broken>Crashes on game load</broken>
 	</extension>
 </addon>
 

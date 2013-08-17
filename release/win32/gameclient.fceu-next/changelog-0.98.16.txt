@@ -1,3 +1,6 @@
+[B]2013-08-17[/B] Version [B]0.98.16[/B]
+. Updated to 66eb5fb @ 2013-08-17 (fixed crash on game load)
+
 [B]2013-08-09[/B] Version [B]0.98.15[/B]
 . Updated to 06b48f0 @ 2013-07-14 (broken: crashes on game load)
 

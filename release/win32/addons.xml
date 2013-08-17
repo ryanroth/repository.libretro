@@ -203,7 +203,7 @@ Source: https://github.com/libretro/fba-libretro</description>
 
 <addon id="gameclient.fceu-next"
 		name="FCEU-Next"
-		version="0.98.15"
+		version="0.98.16"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
