@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-17</date>
+	<extensions>ws|wsc</extensions>
+	<pretty_version>v0.9.28</pretty_version>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
+	<changelog>Updated to 74682eb @ 2013-08-10</changelog>
+</meta>

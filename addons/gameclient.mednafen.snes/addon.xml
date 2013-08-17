@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="@id@"
+		name="Mednafen SNES@arch@"
+		version="@version@"
+		provider-name="Libretro">
+	<requires>
+		<import addon="xbmc.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gameclient"
+			library_android="@library_android@"
+			library_linux="@library_linux@"
+			library_osx="@library_osx@"
+			library_windx="@library_win@"
+			library_wingl="@library_win@">
+		<platforms></platforms>
+		<extensions>@extensions@</extensions>
+		<allowvfs>@allowvfs@</allowvfs>
+		<blockextract>@blockextract@</blockextract>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Mednafen SNES @pretty_version@</summary>
+		<description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen SNES core to the libretro API.
+
+Supported files: @supported_files@
+
+Source: https://github.com/libretro/mednafen-libretro</description>
+		<platform>@platform@</platform>
+		<nofanart>true</nofanart>
+		@broken@
+	</extension>
+</addon>

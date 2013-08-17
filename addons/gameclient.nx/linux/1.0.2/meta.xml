@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-17</date>
+	<extensions>exe</extensions>
+	<pretty_version>v1.0.0.4</pretty_version>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
+	<changelog>Updated to 4070c26 @ 2013-07-13</changelog>
+</meta>

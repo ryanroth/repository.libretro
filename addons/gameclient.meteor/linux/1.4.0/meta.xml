@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-17</date>
+	<extensions>gba</extensions>
+	<pretty_version>v1.4</pretty_version>
+	<allowvfs>true</allowvfs>
+	<blockextract>false</blockextract>
+	<changelog>Upgraded to Meteor GBA v1.4, e877cf0 @ 2013-05-18</changelog>
+</meta>

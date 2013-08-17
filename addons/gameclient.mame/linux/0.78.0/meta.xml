@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-17</date>
+	<extensions>zip</extensions>
+	<pretty_version>v0.78</pretty_version>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
+	<changelog>Updated to d980525 @ 2013-08-13</changelog>
+</meta>

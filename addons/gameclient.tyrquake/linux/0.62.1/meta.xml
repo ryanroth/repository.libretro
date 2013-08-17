@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-17</date>
+	<extensions>pak</extensions>
+	<pretty_version>v0.62</pretty_version>
+	<allowvfs>true</allowvfs>
+	<blockextract>false</blockextract>
+	<changelog>Updated to 66a5d56 @ 2013-07-13</changelog>
+</meta>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-17</date>
+	<extensions>wad|iwad</extensions>
+	<pretty_version>v2.5.0</pretty_version>
+	<allowvfs>true</allowvfs>
+	<blockextract>false</blockextract>
+	<changelog>Updated to bfe7c22 @ 2013-08-14</changelog>
+</meta>

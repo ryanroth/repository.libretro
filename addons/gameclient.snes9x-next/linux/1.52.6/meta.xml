@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-17</date>
+	<extensions>smc|fig|sfc|gd3|gd7|dx2|bsx|swc</extensions>
+	<pretty_version>v1.52.4</pretty_version>
+	<allowvfs>true</allowvfs>
+	<blockextract>false</blockextract>
+	<changelog>Updated to 1228cb2 @ 2013-08-09</changelog>
+</meta>

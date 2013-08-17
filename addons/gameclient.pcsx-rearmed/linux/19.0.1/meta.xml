@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-17</date>
+	<extensions>bin|cue|img|mdf|pbp|cbn</extensions>
+	<pretty_version>r19</pretty_version>
+	<allowvfs>false</allowvfs>
+	<blockextract>false</blockextract>
+	<changelog>Updated to c6c27cc @ 2013-07-25</changelog>
+</meta>
