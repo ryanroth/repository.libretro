@@ -36,7 +36,7 @@ Source: https://github.com/libretro/bnes-libretro</description>
 
 <addon id="gameclient.bsnes.accuracy"
 		name="bSNES (Accuracy) (32-bit)"
-		version="0.92.1"
+		version="0.92.2"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
@@ -70,14 +70,14 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 
 <addon id="gameclient.bsnes.balanced"
 		name="bSNES (Balanced) (32-bit)"
-		version="0.92.1"
+		version="0.92.2"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="xbmc.gameclient"
 			library_android=""
-			library_linux="libretro-bsnes-accuracy.so"
+			library_linux="libretro-bsnes-balanced.so"
 			library_osx=""
 			library_windx=""
 			library_wingl="">
@@ -104,14 +104,14 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 
 <addon id="gameclient.bsnes.performance"
 		name="bSNES (Performance) (32-bit)"
-		version="0.92.1"
+		version="0.92.2"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="xbmc.gameclient"
 			library_android=""
-			library_linux="libretro-bsnes-accuracy.so"
+			library_linux="libretro-bsnes-performance.so"
 			library_osx=""
 			library_windx=""
 			library_wingl="">
