@@ -243,7 +243,7 @@ class Generator:
 
         # loop through and process each addon
         addonsDir = os.path.join(cd, 'addons')
-        addons = os.listdir(addonsDir)
+        addons = sorted(os.listdir(addonsDir))
         for addonId in addons:
             addonDir = os.path.join(addonsDir, addonId)
             releaseDir = os.path.join(releasesDir, addonId)
