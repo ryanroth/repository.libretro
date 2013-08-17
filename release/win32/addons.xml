@@ -79,8 +79,8 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 			library_android=""
 			library_linux=""
 			library_osx=""
-			library_windx="bsnes_libretro_accuracy.dll"
-			library_wingl="bsnes_libretro_accuracy.dll">
+			library_windx="bsnes_libretro_balanced.dll"
+			library_wingl="bsnes_libretro_balanced.dll">
 		<platforms>SNES</platforms>
 		<extensions>sfc|smc</extensions>
 		<allowvfs>true</allowvfs>
@@ -113,8 +113,8 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 			library_android=""
 			library_linux=""
 			library_osx=""
-			library_windx="bsnes_libretro_accuracy.dll"
-			library_wingl="bsnes_libretro_accuracy.dll">
+			library_windx="bsnes_libretro_performance.dll"
+			library_wingl="bsnes_libretro_performance.dll">
 		<platforms>SNES</platforms>
 		<extensions>sfc|smc</extensions>
 		<allowvfs>true</allowvfs>
