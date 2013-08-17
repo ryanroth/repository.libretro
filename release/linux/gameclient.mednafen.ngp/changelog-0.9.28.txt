@@ -1,0 +1,2 @@
+[B]2013-08-17[/B] Version [B]0.9.28[/B]
+. Initial release: Mednafen NGP v0.9.28, https://github.com/libretro/mednafen-libretro @ 74682eb (2013-08-10)
