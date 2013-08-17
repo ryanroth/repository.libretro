@@ -235,7 +235,7 @@ Source: https://github.com/libretro/fba-libretro</description>
 
 <addon id="gameclient.fceu-next"
 		name="FCEU-Next"
-		version="0.98.14"
+		version="0.98.15"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
@@ -262,7 +262,7 @@ Icon credit: Anarkhya (anarkhya.deviantart.com)
 Source: https://github.com/libretro/fceu-next</description>
 		<platform>linux</platform>
 		<nofanart>true</nofanart>
-		<broken>Crashes on game load</broken>
+		
 	</extension>
 </addon>
 
