@@ -4,6 +4,6 @@
 	<extensions>zip</extensions>
 	<pretty_version>v0.78</pretty_version>
 	<allowvfs>false</allowvfs>
-	<blockextract>false</blockextract>
+	<blockextract>true</blockextract>
 	<changelog>Updated to d980525 @ 2013-08-13</changelog>
 </meta>

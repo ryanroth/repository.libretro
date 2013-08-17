@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="@id@"
-		name="Mednafen SNES@arch@"
+		name="Mednafen bSNES@arch@"
 		version="@version@"
 		provider-name="Libretro">
 	<requires>
@@ -18,8 +18,8 @@
 		<blockextract>@blockextract@</blockextract>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Mednafen SNES @pretty_version@</summary>
-		<description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen SNES core to the libretro API.
+		<summary lang="en">Mednafen bSNES @pretty_version@</summary>
+		<description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen bSNES core to the libretro API.
 
 Supported files: @supported_files@
 
