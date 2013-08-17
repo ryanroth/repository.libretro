@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+	<date>2013-08-17</date>
+	<extensions>nes</extensions>
+	<pretty_version>v083</pretty_version>
+	<allowvfs>true</allowvfs>
+	<blockextract>false</blockextract>
+	<changelog>Updated to 2adde62 @ 2013-05-18</changelog>
+</meta>
