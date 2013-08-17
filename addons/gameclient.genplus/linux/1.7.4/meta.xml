@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta>
 	<date>2013-08-17</date>
-	<extensions>md|smd|bin|cue|gen|iso|sms|gg|sg|zip</extensions>
+	<extensions>md|smd|bin|cue|gen|iso|sms|gg|sg</extensions>
 	<pretty_version>v1.7.4</pretty_version>
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>

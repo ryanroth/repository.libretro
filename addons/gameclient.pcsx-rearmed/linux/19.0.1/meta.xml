@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta>
 	<date>2013-08-17</date>
-	<extensions>bin|cue|img|mdf|pbp|cbn</extensions>
+	<extensions>bin|cue|img|mdf|pbp|toc|cbn|m3u</extensions>
 	<pretty_version>r19</pretty_version>
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>

@@ -2,8 +2,8 @@
 <meta>
 	<date>2013-08-17</date>
 	<extensions>nes|fds</extensions>
-	<pretty_version>v1.44 (1.45-WIP)</pretty_version>
+	<pretty_version>v1.46</pretty_version>
 	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
-	<changelog>Updated to 78b403c @ 2013-07-29</changelog>
+	<changelog>Upgraded to @pretty_version@ @ 78b403c (2013-07-29)</changelog>
 </meta>
