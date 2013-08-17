@@ -1,0 +1,5 @@
+[B]2013-08-17[/B] Version [B]0.98.14[/B]
+. Updated to 06b48f0 @ 2013-07-14
+
+[B]2013-02-16[/B] Version [B]0.98.13[/B]
+. Initial release. https://github.com/libretro/fceu-next @ ed11a2a (2013-02-02)
