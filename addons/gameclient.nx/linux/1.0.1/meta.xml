@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta>
 	<date>2013-04-24</date>
-	<extensions>bin|exe|zip</extensions>
+	<extensions>exe|zip</extensions>
 	<pretty_version>v1.0.0.4</pretty_version>
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>

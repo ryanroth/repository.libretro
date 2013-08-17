@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta>
 	<date>2013-02-16</date>
-	<extensions>pce|cue|zip</extensions>
+	<extensions>pce|sgx|cue|zip</extensions>
 	<pretty_version>v0.9.28</pretty_version>
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
