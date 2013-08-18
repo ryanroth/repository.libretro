@@ -300,7 +300,7 @@ Source: https://github.com/libretro/gambatte-libretro</description>
 
 <addon id="gameclient.genplus"
 		name="Genesis Plus GX (32-bit)"
-		version="1.7.5"
+		version="1.7.6"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
@@ -312,7 +312,7 @@ Source: https://github.com/libretro/gambatte-libretro</description>
 			library_windx=""
 			library_wingl="">
 		<platforms>Genesis|Game Gear|SEGA Master System</platforms>
-		<extensions>md|smd|bin|cue|gen|iso|sms|gg|sg|zip</extensions>
+		<extensions>md|smd|bin|cue|gen|iso|sms|gg|sg</extensions>
 		<allowvfs>false</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
@@ -320,7 +320,7 @@ Source: https://github.com/libretro/gambatte-libretro</description>
 		<summary lang="en">Genesis Plus GX v1.7.3</summary>
 		<description>An enhanced port of Genesis Plus to the libretro API. Support for SG-1000, Mark-III, Master System, Game Gear, Mega Drive &amp; Mega CD hardware. Enhancements backported by twinaphex from the GX version (Gamecube/Wii port).
 
-Supported files: .md, .smd, .bin, .cue, .gen, .iso, .sms, .gg, .sg, .zip
+Supported files: .md, .smd, .bin, .cue, .gen, .iso, .sms, .gg, .sg
 
 Source: https://github.com/libretro/Genesis-Plus-GX</description>
 		<platform>linux</platform>
@@ -396,7 +396,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 
 <addon id="gameclient.mednafen.psx"
 		name="Mednafen PSX (32-bit)"
-		version="0.9.29"
+		version="0.9.30"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
@@ -408,7 +408,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 			library_windx=""
 			library_wingl="">
 		<platforms>Playstation</platforms>
-		<extensions>cue|toc</extensions>
+		<extensions>cue|toc|m3u</extensions>
 		<allowvfs>false</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
@@ -416,7 +416,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 		<summary lang="en">Mednafen PSX v0.9.28</summary>
 		<description>Mednafen is a portable multi-system emulator. This is port of the Mednafen PSX core to the libretro API. PlayStation 1 emulation is currently in a buggy alpha state and not all hardware and features are emulated. A dual-core Phenom II or Athlon II at 3GHz or higher, or rough equivalent, is recommended for running Mednafen's PlayStation 1 emulation. PSF1 playback is supported.
 
-Supported files: .cue, .toc
+Supported files: .cue, .toc, .m3u
 
 Icon credit: Anarkhya (anarkhya.deviantart.com)
 
@@ -429,7 +429,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 
 <addon id="gameclient.mednafen.wswan"
 		name="Mednafen WonderSwan (32-bit)"
-		version="0.9.30"
+		version="0.9.31"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
@@ -441,7 +441,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 			library_windx=""
 			library_wingl="">
 		<platforms>WonderSwan|WonderSwan Color</platforms>
-		<extensions>ws|wsc|zip</extensions>
+		<extensions>ws|wsc</extensions>
 		<allowvfs>false</allowvfs>
 		<blockextract>false</blockextract>
 	</extension>
@@ -449,7 +449,7 @@ Source: https://github.com/libretro/mednafen-libretro</description>
 		<summary lang="en">Mednafen WonderSwan v0.9.28</summary>
 		<description>Mednafen is a portable multi-system emulator. This is a port of the Mednafen WonderSwan core to the libretro API. Mednafen's WonderSwan (Color) emulation is based off of Cygne.
 
-Supported files: .ws, .wsc, .zip
+Supported files: .ws, .wsc
 
 Source: https://github.com/libretro/mednafen-libretro</description>
 		<platform>linux</platform>
