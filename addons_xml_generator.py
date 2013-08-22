@@ -167,8 +167,23 @@ class Addon:
             except Exception as e:
                 raise Exception('exception:  %s: %s' % (self.addonId, str(e)))
 
+    @staticmethod
+    def isVersion(version):
+        """
+        Returns true if the version string is in dotted form "x.y.z"
+        """
+        try:
+            [int(v) for v in version.split('.')]
+            return True
+        except:
+            return False
+
     def getVersions(self):
-        return sorted(self.versions.keys())
+        # Turn each version into list of ints
+        versions = [[int(part) for part in v.split('.')] for v in self.versions.keys() if Addon.isVersion(v)]
+        versions.sort()
+        # Recombine each list of ints into dotted versions
+        return ['.'.join([str(v_part) for v_part in version]) for version in versions]
 
     def getLibrary(self, version):
         return self.versions[version].getLibrary()
