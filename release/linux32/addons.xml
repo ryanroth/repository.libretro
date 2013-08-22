@@ -2,7 +2,7 @@
 <addons>
 <addon id="gameclient.bnes"
 		name="bNES (32-bit)"
-		version="0.83.1"
+		version="0.83.2"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
@@ -138,7 +138,7 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 
 <addon id="gameclient.desmume"
 		name="DeSmuME (32-bit)"
-		version="0.9.9"
+		version="0.9.10"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
@@ -170,7 +170,7 @@ Source: https://github.com/libretro/desmume-libretro</description>
 
 <addon id="gameclient.dosbox"
         name="DOSBox (32-bit)"
-		version="0.74.0"
+		version="0.74.1"
         provider-name="Libretro">
     <requires>
         <import addon="xbmc.libretro" version="1.0.0"/>

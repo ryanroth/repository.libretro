@@ -138,14 +138,14 @@ Source: http://gitorious.org/bsnes/bsnes</description>
 
 <addon id="gameclient.desmume"
 		name="DeSmuME"
-		version="0.9.9"
+		version="0.9.10"
 		provider-name="Libretro">
 	<requires>
 		<import addon="xbmc.libretro" version="1.0.0"/>
 	</requires>
 	<extension point="xbmc.gameclient"
 			library_android=""
-			library_linux="libretro-desmume.so"
+			library_linux="desmume_libretro.so"
 			library_osx=""
 			library_windx=""
 			library_wingl="">

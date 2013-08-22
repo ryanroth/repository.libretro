@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta>
-	<date>2013-07-10</date>
+	<date>2013-08-21</date>
 	<extensions>nds</extensions>
 	<pretty_version>v0.9.9</pretty_version>
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
-	<changelog>Updated to d508379 @ 2013-06-06</changelog>
+	<changelog>Initial release: DeSmuME v0.9.9, https://github.com/libretro/desmume-libretro @ 40f9af5 (2013-08-13)</changelog>
 </meta>
