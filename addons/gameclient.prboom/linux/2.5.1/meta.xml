@@ -6,4 +6,7 @@
 	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to bfe7c22 @ 2013-08-14</changelog>
+	<settings>
+		<setting key="gamepad">Gamepad type; gamepad|dual-analog</setting>
+	</settings>
 </meta>

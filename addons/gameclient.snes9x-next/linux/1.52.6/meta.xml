@@ -6,4 +6,7 @@
 	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to 1228cb2 @ 2013-08-09</changelog>
+	<settings>
+		<setting key="snes9x_opt0">SuperFX Overclock; disabled|40MHz|60MHz|80MHz|100MHz</setting>
+	</settings>
 </meta>

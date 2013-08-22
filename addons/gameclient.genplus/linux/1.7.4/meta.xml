@@ -6,4 +6,9 @@
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Upgraded to v1.7.4 @ d973d7d (2013-07-14)</changelog>
+	<settings>
+		<setting key="blargg_ntsc_filter">Blargg NTSC filter; disabled|monochrome|composite|svideo|rgb</setting>
+		<setting key="overscan">Overscan mode; 0|1|2|3</setting>
+		<setting key="gg_extra">Game Gear extended screen; disabled|enabled</setting>
+	</settings>
 </meta>

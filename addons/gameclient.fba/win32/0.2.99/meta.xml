@@ -6,4 +6,8 @@
 	<allowvfs>false</allowvfs>
 	<blockextract>true</blockextract>
 	<changelog>Updated to f16b316 @ 2013-08-04</changelog>
+	<settings>
+		<setting key="diagnostics">Diagnostics; disabled|enabled</setting>
+		<setting key="cpu-speed-adjust">CPU Speed Overclock; 100|110|120|130|140|150|160|170|180|190|200</setting>
+	</settings>
 </meta>

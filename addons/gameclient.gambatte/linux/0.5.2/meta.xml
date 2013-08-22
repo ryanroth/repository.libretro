@@ -6,4 +6,7 @@
 	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to ff69a30 @ 2013-07-14</changelog>
+	<settings>
+		<setting key="gb_colorization">GB Colorization; disabled|enabled</setting>
+	</settings>
 </meta>

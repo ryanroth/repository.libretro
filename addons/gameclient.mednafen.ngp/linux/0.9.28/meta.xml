@@ -6,4 +6,7 @@
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Initial release: Mednafen NGP v0.9.28, https://github.com/libretro/mednafen-libretro @ 74682eb (2013-08-10)</changelog>
+	<settings>
+		<setting key="ngp_language">Language; japanese|english</setting>
+	</settings>
 </meta>

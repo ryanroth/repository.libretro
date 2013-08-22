@@ -6,4 +6,10 @@
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to 40f9af5 @ 2013-08-13</changelog>
+	<settings>
+		<setting key="desmume_screens_layout">Screen Layout; main_top_ext_bottom|main_bottom_ext_top|main_left_ext_right|main_right_ext_left</setting>
+		<setting key="desmume_pointer_type">Pointer Mode; relative|absolute</setting>
+		<setting key="desmume_firmware_language">Language; English|Japanese|French|German|Italian|Spanish</setting>
+		<setting key="desmume_frameskip">Frame Skip; 0|1|2|3|4|5|6|7|8|9</setting>
+	</settings>
 </meta>

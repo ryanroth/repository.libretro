@@ -6,4 +6,21 @@
 	<allowvfs>true</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to 4bb01ae @ 2013-08-02</changelog>
+	<settings>
+		<setting key="s9x_layer_1">Show layer 1; Yes|No</setting>
+		<setting key="s9x_layer_2">Show layer 2; Yes|No</setting>
+		<setting key="s9x_layer_3">Show layer 3; Yes|No</setting>
+		<setting key="s9x_layer_4">Show layer 4; Yes|No</setting>
+		<setting key="s9x_layer_5">Show sprite layer; Yes|No</setting>
+		<setting key="s9x_gfx_clip">Enable graphic clip windows; Yes|No</setting>
+		<setting key="s9x_gfx_transp">Enable transparency effects; Yes|No</setting>
+		<setting key="s9x_sndchan_1">Enable sound channel 1; Yes|No</setting>
+		<setting key="s9x_sndchan_2">Enable sound channel 2; Yes|No</setting>
+		<setting key="s9x_sndchan_3">Enable sound channel 3; Yes|No</setting>
+		<setting key="s9x_sndchan_4">Enable sound channel 4; Yes|No</setting>
+		<setting key="s9x_sndchan_5">Enable sound channel 5; Yes|No</setting>
+		<setting key="s9x_sndchan_6">Enable sound channel 6; Yes|No</setting>
+		<setting key="s9x_sndchan_7">Enable sound channel 7; Yes|No</setting>
+		<setting key="s9x_sndchan_8">Enable sound channel 8; Yes|No</setting>
+	</settings>
 </meta>

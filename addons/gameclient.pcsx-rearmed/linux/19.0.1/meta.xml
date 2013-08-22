@@ -6,4 +6,14 @@
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to c6c27cc @ 2013-07-25</changelog>
+	<settings>
+		<setting key="frameskip">Frameskip; 0|1|2|3</setting>
+		<setting key="region">Region; Auto|NTSC|PAL</setting>
+		<setting key="pad1type">Pad 1 Type; standard|analog</setting>
+		<!-- For __ARM_NEON__
+		<setting key="neon_interlace_enable">Enable interlacing mode(s); disabled|enabled</setting>
+		<setting key="neon_enhancement_enable">Enhanced resolution (slow); disabled|enabled</setting>
+		<setting key="neon_enhancement_no_main">Enhanced resolution speed hack; disabled|enabled</setting>
+		-->
+	</settings>
 </meta>

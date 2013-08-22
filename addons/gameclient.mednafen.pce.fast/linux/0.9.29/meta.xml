@@ -6,4 +6,12 @@
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to 74682eb @ 2013-08-10</changelog>
+	<settings>
+		<setting key="pce_nospritelimit">No Sprite Limit; disabled|enabled</setting>
+		<setting key="pce_keepaspect">Keep Aspect; enabled|disabled</setting>
+		<setting key="pce_cddavolume">(CD) CDDA Volume; 100|90|80|70|60|50|40|30|20|10|0</setting>
+		<setting key="pce_adpcmvolume">(CD) ADPCM Volume; 100|90|80|70|60|50|40|30|20|10|0</setting>
+		<setting key="pce_cdpsgvolume">(CD) CD PSG Volume; 100|90|80|70|60|50|40|30|20|10|0</setting>
+		<setting key="pce_cdspeed">(CD) CD Speed; 1|2|4|8</setting>
+	</settings>
 </meta>

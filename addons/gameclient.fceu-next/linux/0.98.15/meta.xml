@@ -6,4 +6,7 @@
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to 66eb5fb @ 2013-08-17 (fixed crash on game load)</changelog>
+	<settings>
+		<setting key="nes_palette">Color Palette; asqrealc|loopy|quor|chris|matt|pasofami|crashman|mess|zaphod-cv|zaphod-smb|vs-drmar|vs-cv|vs-smb</setting>
+	</settings>
 </meta>

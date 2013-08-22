@@ -6,4 +6,10 @@
 	<allowvfs>false</allowvfs>
 	<blockextract>false</blockextract>
 	<changelog>Updated to dc0dcf8 @ 2013-07-31</changelog>
+	<settings>
+		<setting key="psx_fastboot">Skip BIOS sequence; enabled|disabled</setting>
+		<setting key="psx_dithering">Dithering; enabled|disabled</setting>
+		<setting key="psx_enable_multitap_port1">Port 1: Multitap enable; disabled|enabled</setting>
+		<setting key="psx_enable_multitap_port2">Port 2: Multitap enable; disabled|enabled</setting>
+	</settings>
 </meta>

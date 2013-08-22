@@ -6,4 +6,8 @@
 	<allowvfs>false</allowvfs>
 	<blockextract>true</blockextract>
 	<changelog>Updated to d980525 @ 2013-08-13</changelog>
+	<settings>
+		<setting key="frameskip">Frameskip; 0|1|2|3|4|5</setting>
+		<setting key="dcs-speedhack">MK2/MK3 DCS Speedhack; disabled|enabled</setting>
+	</settings>
 </meta>
