@@ -28,6 +28,5 @@ Icon credit: Alucryd (alucryd.deviantart.com)
 Source: https://github.com/libretro/snes9x-next</description>
 		<platform>@platform@</platform>
 		<nofanart>true</nofanart>
-		@broken@
 	</extension>
 </addon>
