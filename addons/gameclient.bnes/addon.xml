@@ -28,7 +28,5 @@ Authors: byuu, Ryphecha.
 Source: https://github.com/libretro/bnes-libretro</description>
 		<platform>@platform@</platform>
 		<nofanart>true</nofanart>
-		<!--<broken>Poor performance and reported crashes. Use FCEU-Next.</broken>-->
-		@broken@
 	</extension>
 </addon>
